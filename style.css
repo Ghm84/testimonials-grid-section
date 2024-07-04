@@ -3,6 +3,11 @@ body {
     overflow: auto;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
 .cards {
     max-width: 90%;
     margin-top: 1rem;
@@ -316,11 +321,128 @@ body {
 .p-card-five {
     position: relative;
     max-width: 100%;
-    color: hsl(219, 29%, 14%);
+    color: hsl(217, 19%, 35%);
     opacity: 0.7;
     font-size: 0.8rem;
     font-weight: 500;
     line-height: 1rem;
     margin-left: 1.9rem;
     padding-right: 2.2rem;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1440px) {
+    
+    body {
+        overflow: auto;
+    }
+
+    .canvas {
+        max-width: 100%;
+        margin-left: -1rem;
+        padding-top: 2rem;
+        padding-bottom: 25rem;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        max-width: 100%;
+    }
+
+    .card-one {
+       position: relative;
+       max-width: 45%;
+       margin-left: 10rem;
+       padding-bottom: 0.25rem;
+    }
+
+    .card-one-container {
+        max-width: 100%;
+        margin-top: 4rem;
+        margin-left: 0.5rem;
+        margin-right: 0;
+    }
+
+    .pattern-quotation {
+        position: absolute;
+        margin-left: 17.4rem;
+        z-index: 1;
+    }
+
+    .h3-card-one {
+        max-width: 90%;
+        font-size: 1.20rem;
+        font-weight: 500;
+        z-index: 2;
+    }
+
+    .p-card-one {
+        max-width: 100%;
+    }
+
+    .card-two {
+        position: absolute;
+        max-width: 21%;
+        height: auto;
+        margin-top: -17.4rem;
+        margin-left: 46rem;
+        margin-right: 1rem;
+        padding-bottom: 1.2rem;
+    }
+
+    .p-card-two {
+        font-size: 0.8rem;
+        margin-right: 2rem;
+    }
+
+    .card-three {
+        position: absolute;
+        max-width: 20%;
+        height: auto;
+        margin-top: 2rem;
+        margin-left: 10rem;
+        padding-bottom: 1.6rem;
+    }
+
+    .h3-card-three {
+        max-width: 75%;
+    }
+
+    .p-card-three {
+        margin-right: 2rem;
+    }
+
+    .card-four {
+        position: absolute;
+        max-width: 42.5%;
+        height: auto;
+        margin-top: 1.9rem;
+        margin-left: 28rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .h3-card-four {
+        max-width: 90%;
+        opacity: 0.9;
+        line-height: 1.5rem;
+    }
+
+    .p-card-four {
+        margin-top: 2.5rem;
+        margin-right: 2rem;
+    }
+
+    .card-five {
+        position: absolute;
+        max-width: 18%;
+        margin-top: -17.5rem;
+        margin-left: 65rem;
+        padding-right: 1rem;
+        padding-bottom: 1.25rem;
+    }
+
+    .p-card-five {
+        margin-top: 0.5rem;
+        margin-right: 1rem;
+    }
 }
