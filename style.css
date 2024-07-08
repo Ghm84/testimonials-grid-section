@@ -1,3 +1,7 @@
+* {
+    font-family: "Barlow Semi Condensed";
+}
+
 body {
     background-color: hsl(210, 46%, 95%);
     overflow: auto;
@@ -17,81 +21,76 @@ body {
 .card-one {
     background-color: hsl(263, 55%, 52%);
     max-width: 100%;
-    font-family: "Barlow Semi Condensed";
+    height: auto;
     padding-bottom: 1rem;
     border-radius: 0.5rem;
-}
-
-.card-one-container {
-    max-width: 100%;
-    padding-left: 0.5rem;
-    padding-right: 1rem;
-    padding-bottom: 1rem;
 }
 
 .avatar-daniel {
     position: static;
     width: 1.9rem;
+    border: 2px solid hsl(263, 71%, 63%);
     border-radius: 4rem;
     margin-top: 1.6rem;
-    margin-left: 1.3rem; 
+    margin-left: 1.5rem; 
 }
 
 .pattern-quotation {
     position: absolute;
-    margin-top: 0.15rem;
-    margin-left: 9.5rem;
+    margin-top: 0.2rem;
+    margin-left: 9rem;
+    margin-right: 1rem;
     z-index: 1;
 }
 
 .h1-card-one {
     position: relative;
-    color: hsl(0, 0%, 100%);
+    color: hsl(210, 46%, 95%);
     font-size: 0.85rem;
     font-weight: 500;
-    margin-top: -2rem;
-    margin-left: 3.8rem;
+    margin-top: -2.2rem;
+    margin-left: 4.5rem;
 }
 
 .h2-card-one {
     position: relative;
-    color: hsl(0, 0%, 100%);
+    color: hsl(210, 46%, 95%);
     opacity: 0.5;
     font-size: 0.69rem;
     font-weight: 500;
     margin-top: -0.5rem;
-    margin-left: 3.8rem;
+    margin-left: 4.5rem;
     padding: 0;
 }
 
 .h3-card-one {
     position: relative;
-    max-width: 82%;
+    max-width: 78%;
     color: hsl(0, 0%, 100%);
-    font-size: 1.3rem;
+    font-size: 1.26rem;
     font-weight: 600;
-    line-height: 1.5rem;
+    line-height: 1.6rem;
     z-index: 2;
-    margin-top: 1.2rem;
-    margin-left: 1.9rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 1.5rem;
 }
 
 .p-card-one {
     position: relative;
-    max-width: 87%;
-    color: hsl(0, 0%, 100%);
+    max-width: 71%;
+    color: hsl(210, 46%, 95%);
     opacity: 0.7;
     font-size: 0.8rem;
     font-weight: 500;
-    line-height: 1rem;
-    margin-left: 1.9rem;
+    line-height: 1.25rem;
+    margin-left: 2rem;
     padding-right: 1rem;
 }
 
 .card-two {
     background-color: hsl(217, 19%, 35%);
     max-width: 100%;
-    font-family: "Barlow Semi Condensed";
     margin-top: 1rem;
     padding-bottom: 1rem;
     border-radius: 0.5rem;
@@ -101,9 +100,10 @@ body {
 .avatar-jonathan {
     position: static;
     width: 1.9rem;
+    border: 2px solid hsl(217, 19%, 35%);
     border-radius: 4rem;
     margin-top: 1.6rem;
-    margin-left: 1.3rem; 
+    margin-left: 1.3rem;
 }
 
 .h1-card-two {
@@ -111,8 +111,8 @@ body {
     color: hsl(0, 0%, 100%);
     font-size: 0.85rem;
     font-weight: 500;
-    margin-top: -2rem;
-    margin-left: 3.8rem;
+    margin-top: -2.2rem;
+    margin-left: 4.5rem;
 }
 
 
@@ -123,7 +123,7 @@ body {
     font-size: 0.69rem;
     font-weight: 500;
     margin-top: -0.5rem;
-    margin-left: 3.8rem;
+    margin-left: 4.5rem;
     padding: 0;
 }
 
@@ -133,7 +133,7 @@ body {
     color: hsl(0, 0%, 100%);
     font-size: 1.3rem;
     font-weight: 600;
-    line-height: 1.5rem;
+    line-height: 1.6rem;
     margin-top: 1.2rem;
     margin-left: 1.9rem;
 }
@@ -145,7 +145,7 @@ body {
     opacity: 0.7;
     font-size: 0.8rem;
     font-weight: 500;
-    line-height: 1rem;
+    line-height: 1.25rem;
     margin-left: 1.9rem;
     padding-right: 1rem;
 }
@@ -153,7 +153,6 @@ body {
 .card-three {
     background-color: hsl(0, 0%, 100%);
     max-width: 100%;
-    font-family: "Barlow Semi Condensed";
     margin-top: 1rem;
     padding-bottom: 1rem;
     border-radius: 0.5rem;
@@ -162,6 +161,7 @@ body {
 .avatar-jeanette {
     position: static;
     width: 1.9rem;
+    border: 2px solid hsl(0, 0%, 100%);
     border-radius: 4rem;
     margin-top: 1.6rem;
     margin-left: 1.3rem; 
@@ -172,8 +172,8 @@ body {
     color: hsl(217, 19%, 35%);
     font-size: 0.85rem;
     font-weight: 500;
-    margin-top: -2rem;
-    margin-left: 3.8rem;
+    margin-top: -2.2rem;
+    margin-left: 4.5rem;
 }
 
 .h2-card-three {
@@ -183,7 +183,7 @@ body {
     font-size: 0.69rem;
     font-weight: 500;
     margin-top: -0.5rem;
-    margin-left: 3.8rem;
+    margin-left: 4.5rem;
     padding: 0;
 }
 
@@ -193,7 +193,7 @@ body {
     color: hsl(217, 19%, 35%);
     font-size: 1.3rem;
     font-weight: 600;
-    line-height: 1.5rem;
+    line-height: 1.6rem;
     margin-top: 1.2rem;
     margin-left: 1.9rem;
 }
@@ -205,7 +205,7 @@ body {
     opacity: 0.7;
     font-size: 0.8rem;
     font-weight: 500;
-    line-height: 1rem;
+    line-height: 1.25rem;
     margin-left: 1.9rem;
     padding-right: 3rem;
 }
@@ -213,7 +213,6 @@ body {
 .card-four {
     background-color: hsl(219, 29%, 14%);
     max-width: 100%;
-    font-family: "Barlow Semi Condensed";
     margin-top: 1rem;
     padding-bottom: 1rem;
     border-radius: 0.5rem;
@@ -222,6 +221,7 @@ body {
 .avatar-patrick {
     position: static;
     width: 1.9rem;
+    border: 2px solid hsl(263, 71%, 63%);
     border-radius: 4rem;
     margin-top: 1.6rem;
     margin-left: 1.3rem;
@@ -232,8 +232,8 @@ body {
     color: hsl(0, 0%, 100%);
     font-size: 0.85rem;
     font-weight: 500;
-    margin-top: -2rem;
-    margin-left: 3.8rem;
+    margin-top: -2.2rem;
+    margin-left: 4.5rem;
 }
 
 .h2-card-four {
@@ -243,7 +243,7 @@ body {
     font-size: 0.69rem;
     font-weight: 500;
     margin-top: -0.5rem;
-    margin-left: 3.8rem;
+    margin-left: 4.5rem;
     padding: 0;
 }
 
@@ -253,7 +253,7 @@ body {
     color: hsl(0, 0%, 100%);
     font-size: 1.3rem;
     font-weight: 600;
-    line-height: 1.5rem;
+    line-height: 1.6rem;
     margin-top: 1.2rem;
     margin-left: 1.9rem;
 }
@@ -265,7 +265,7 @@ body {
     opacity: 0.7;
     font-size: 0.8rem;
     font-weight: 500;
-    line-height: 1rem;
+    line-height: 1.25rem;
     margin-left: 1.9rem;
     padding-right: 3rem;
 }
@@ -273,7 +273,6 @@ body {
 .card-five {
     background-color: hsl(0, 0%, 100%);
     max-width: 100%;
-    font-family: "Barlow Semi Condensed";
     margin-top: 1rem;
     padding-bottom: 1rem;
     border-radius: 0.5rem;
@@ -282,6 +281,7 @@ body {
 .avatar-kira {
     position: static;
     width: 1.9rem;
+    border: 2px solid hsl(0, 0%, 100%);
     border-radius: 4rem;
     margin-top: 1.6rem;
     margin-left: 1.3rem;
@@ -292,8 +292,8 @@ body {
     color: hsl(217, 19%, 35%);
     font-size: 0.85rem;
     font-weight: 500;
-    margin-top: -2rem;
-    margin-left: 3.8rem;
+    margin-top: -2.2rem;
+    margin-left: 4.5rem;
 }
 
 .h2-card-five {
@@ -303,7 +303,7 @@ body {
     font-size: 0.69rem;
     font-weight: 500;
     margin-top: -0.5rem;
-    margin-left: 3.8rem;
+    margin-left: 4.5rem;
     padding: 0;
 }
 
@@ -313,7 +313,7 @@ body {
     color: hsl(217, 19%, 35%);
     font-size: 1.3rem;
     font-weight: 600;
-    line-height: 1.5rem;
+    line-height: 1.6rem;
     margin-top: 1.2rem;
     margin-left: 1.9rem;
 }
@@ -325,7 +325,7 @@ body {
     opacity: 0.7;
     font-size: 0.8rem;
     font-weight: 500;
-    line-height: 1rem;
+    line-height: 1.25rem;
     margin-left: 1.9rem;
     padding-right: 2.2rem;
 }
@@ -337,57 +337,59 @@ body {
     }
 
     .canvas {
-        max-width: 100%;
-        margin-left: -1rem;
-        padding-top: 2rem;
-        padding-bottom: 25rem;
+        max-width: 40%;
+        margin-top: -5rem;
+        margin-left: -3rem;
+        margin-bottom: 25rem;
+        padding-top: 1rem;
+        padding-bottom: 35rem;
     }
 
     .container {
         display: flex;
         flex-direction: row;
-        max-width: 100%;
+    }
+
+    .cards {
+        margin-top: -2rem;
     }
 
     .card-one {
-       position: relative;
-       max-width: 45%;
+       position: absolute;
+       max-width: 40%;
+       height: auto;
+       margin-top: 10rem;
        margin-left: 10rem;
-       padding-bottom: 0.25rem;
-    }
-
-    .card-one-container {
-        max-width: 100%;
-        margin-top: 4rem;
-        margin-left: 0.5rem;
-        margin-right: 0;
+       padding-bottom: 1rem;
+       padding-right: 0.5rem;
+       overflow: hidden;
     }
 
     .pattern-quotation {
         position: absolute;
-        margin-left: 17.4rem;
+        margin-left: 18rem;
+        margin-right: 3rem;
         z-index: 1;
     }
 
     .h3-card-one {
         max-width: 90%;
-        font-size: 1.20rem;
-        font-weight: 500;
+        font-size: 1.22rem;
         z-index: 2;
     }
 
     .p-card-one {
-        max-width: 100%;
+        max-width: 87%;
     }
 
     .card-two {
         position: absolute;
-        max-width: 21%;
+        max-width: 20%;
         height: auto;
-        margin-top: -17.4rem;
+        margin-top: 10rem;
         margin-left: 46rem;
-        margin-right: 1rem;
-        padding-bottom: 1.2rem;
+        margin-right: 0.25rem;
+        padding-bottom: 0.8rem;
     }
 
     .p-card-two {
@@ -397,11 +399,12 @@ body {
 
     .card-three {
         position: absolute;
-        max-width: 20%;
+        max-width: 19.5%;
         height: auto;
-        margin-top: 2rem;
+        margin-top: 30rem;
         margin-left: 10rem;
-        padding-bottom: 1.6rem;
+        padding-bottom: 2rem;
+        box-shadow: 9px 3px 11px 1px rgba(0, 0, 0, 0.2);
     }
 
     .h3-card-three {
@@ -409,16 +412,17 @@ body {
     }
 
     .p-card-three {
-        margin-right: 2rem;
+        margin-right: 0.25rem;
     }
 
     .card-four {
         position: absolute;
-        max-width: 42.5%;
+        max-width: 41%;
         height: auto;
-        margin-top: 1.9rem;
-        margin-left: 28rem;
-        padding-bottom: 1.5rem;
+        margin-top: 30rem;
+        margin-left: 28.5rem;
+        padding-bottom: 2rem;
+        box-shadow: 9px 3px 11px 1px rgba(0, 0, 0, 0.2);
     }
 
     .h3-card-four {
@@ -428,21 +432,23 @@ body {
     }
 
     .p-card-four {
-        margin-top: 2.5rem;
-        margin-right: 2rem;
+        margin-top: 1.5rem;
+        margin-right: 1rem;
     }
 
     .card-five {
         position: absolute;
-        max-width: 18%;
-        margin-top: -17.5rem;
-        margin-left: 65rem;
-        padding-right: 1rem;
-        padding-bottom: 1.25rem;
+        max-width: 20%;
+        height: auto;
+        margin-top: 9.95rem;
+        margin-left: 64.8rem;
+        padding-right: 0.15rem;
+        padding-bottom: 0.7rem;
+        box-shadow: 9px 3px 11px 1px rgba(0, 0, 0, 0.2);
     }
 
     .p-card-five {
-        margin-top: 0.5rem;
+        margin-top: 0.15rem;
         margin-right: 1rem;
     }
 }
