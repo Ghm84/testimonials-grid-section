@@ -355,7 +355,7 @@ body {
     .canvas {
         max-width: 100%;
         height: auto;
-        margin-left: 5rem;
+        margin-left: 10rem;
     }
 
     .container {
@@ -403,6 +403,7 @@ body {
     .card-three {
         position: relative;
         width: 15rem;
+        height: auto;
         margin-top: 2rem;
     }
 
@@ -419,6 +420,7 @@ body {
     .card-four {
         position: relative;
         width: 39rem;
+        height: auto;
         margin-top: -17.5rem;
         left: 17rem;
     }
@@ -436,6 +438,7 @@ body {
     .card-five {
         position: relative;
         width: 16rem;
+        height: auto;
         margin-top: -38.5rem;
         left: 54rem;
     }
