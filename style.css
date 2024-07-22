@@ -452,3 +452,17 @@ body {
         padding-right: 1rem;
     }
 }
+
+@media screen and (min-width: 1600px) {
+
+    body {
+        overflow: auto;
+    }
+
+    .canvas {
+        max-width: 100%;
+        height: auto;
+        margin-top: 10rem;
+        margin-left: 10rem;
+    }
+}
