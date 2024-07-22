@@ -1,24 +1,26 @@
+
 * {
-    font-family: "Barlow Semi Condensed";
+    margin: 0;
 }
 
 body {
     background-color: hsl(210, 46%, 95%);
     overflow: auto;
     padding-top: 2rem;
-    padding-bottom: 3rem;
+    font-family: "Barlow Semi Condensed";
+}
+
+.canvas {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 3rem;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    
-}
-
-.cards {
-    max-width: 90%;
-    margin-top: 1rem;
-    margin-left: 1rem;  
+    max-width: 100%;
+    margin-left: 1rem;
 }
 
 .card-one {
@@ -26,7 +28,7 @@ body {
     background-color: hsl(263, 55%, 52%);
     max-width: 90%;
     margin-bottom: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
     border-radius: 0.5rem;
 }
 
@@ -35,14 +37,14 @@ body {
     width: 1.9rem;
     border: 2px solid hsl(263, 71%, 63%);
     border-radius: 4rem;
-    margin-top: 1.6rem;
+    margin-top: 1.8rem;
     margin-left: 1.5rem; 
 }
 
 .pattern-quotation {
     position: absolute;
-    margin-top: 0.2rem;
-    margin-left: 9rem;
+    margin-top: -4rem;
+    margin-left: 13rem;
     margin-right: 1rem;
     z-index: 1;
 }
@@ -88,6 +90,7 @@ body {
     font-size: 0.8rem;
     font-weight: 500;
     line-height: 1.25rem;
+    margin-top: 1rem;
     margin-left: 2rem;
     padding-right: 2rem;
 }
@@ -96,8 +99,8 @@ body {
     position: absolute;
     background-color: hsl(217, 19%, 35%);
     max-width: 90%;
-    margin-top: 29.5rem;
-    padding-bottom: 1rem;
+    margin-top: 29.8rem;
+    padding-bottom: 2rem;
     border-radius: 0.5rem;
 }
 
@@ -151,6 +154,7 @@ body {
     font-size: 0.8rem;
     font-weight: 500;
     line-height: 1.25rem;
+    margin-top: 1rem;
     margin-left: 1.9rem;
     padding-right: 1rem;
 }
@@ -159,8 +163,8 @@ body {
     position: absolute;
     background-color: hsl(0, 0%, 100%);
     max-width: 90%;
-    margin-top: 46.5rem;
-    padding-bottom: 1rem;
+    margin-top: 46.8rem;
+    padding-bottom: 2rem;
     border-radius: 0.5rem;
 }
 
@@ -212,6 +216,7 @@ body {
     font-size: 0.8rem;
     font-weight: 500;
     line-height: 1.25rem;
+    margin-top: 1rem;
     margin-left: 1.9rem;
     padding-right: 3rem;
 }
@@ -220,8 +225,8 @@ body {
     position: absolute;
     background-color: hsl(219, 29%, 14%);
     max-width: 90%;
-    margin-top: 62.5rem;
-    padding-bottom: 1rem;
+    margin-top: 62.8rem;
+    padding-bottom: 2rem;
     border-radius: 0.5rem;
 }
 
@@ -273,6 +278,7 @@ body {
     font-size: 0.8rem;
     font-weight: 500;
     line-height: 1.25rem;
+    margin-top: 1rem;
     margin-left: 1.9rem;
     padding-right: 3rem;
 }
@@ -282,7 +288,7 @@ body {
     background-color: hsl(0, 0%, 100%);
     max-width: 90%;
     margin-top: 90rem;
-    padding-bottom: 1rem;
+    padding-bottom: 1.7rem;
     border-radius: 0.5rem;
 }
 
@@ -334,105 +340,112 @@ body {
     font-size: 0.8rem;
     font-weight: 500;
     line-height: 1.25rem;
+    margin-top: 1rem;
     margin-left: 1.9rem;
-    padding-right: 2.2rem;
+    margin-right: 1rem;
+    padding-right: 1.2rem;
 }
 
-@media screen and (min-width: 900px) and (max-width: 1500px) {
+@media screen and (min-width: 800px) {
     
     body {
-        overflow: auto;
-        padding-right: 2rem;
+        overflow: scroll;
     }
 
     .canvas {
         max-width: 100%;
         height: auto;
+        margin-left: 5rem;
     }
 
     .container {
         display: grid;
-        max-width: 100%;
-        gap: 1rem;
-    }
-
-    .cards {
-        max-width: 100%;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0.25rem;
     }
 
     .card-one {
-        max-width: 46%;
-        margin-left: 10rem;
-        align-content: center;
+        position: relative;
+        width: 33rem;
+        height: auto;
+        margin-top: 1rem;
+        padding-right: 1rem;
     }
 
-    .card-one-container {
-        max-width: 100%;
-        margin-left: 0.5rem;
+    .pattern-quotation {
+        position: absolute;
+        margin-left: 21rem;
     }
 
     .h3-card-one {
-        max-width: 100%;
+        max-width: 90%;
+        font-size: 1.2rem;
     }
     
     .p-card-one {
-        max-width: 100%;
+        max-width: 90%;
         padding-right: 2rem;
     }
 
     .card-two {
-        max-width: 24%;
-        max-height: 50%;
-        margin-top: -18.5rem;
-        margin-left: 48rem;
-        padding-bottom: 1.8rem;
+        position: relative;
+        width: 16rem;
+        height: auto;
+        margin-top: -19.9rem;
+        left: 36rem;
     }
 
     .p-card-two {
-        max-width: 100%;
+        max-width: 90%;
+        padding-right: 3rem;
     }
 
     .card-three {
-        max-width: 20%;
-        margin-top: 3rem;
-        margin-left: 10rem;
+        position: relative;
+        width: 15rem;
+        margin-top: 2rem;
     }
 
     .h3-card-three {
         max-width: 65%;
+        font-size: 1.2rem;
     }
 
     .p-card-three {
-        max-width: 60%;
+        max-width: 90%;
+        padding-right: 2rem;
     }
 
     .card-four {
-        max-width: 45.5%;
-        margin-top: -17.7rem;
-        margin-left: 27rem;
+        position: relative;
+        width: 39rem;
+        margin-top: -17.5rem;
+        left: 17rem;
     }
 
     .h3-card-four {
-        max-width: 100%;
+        max-width: 84%;
+        font-size: 1.2rem;
     }
 
     .p-card-four {
-        max-width: 98%;
-        margin-right: 0.5rem;
+        max-width: 100%;
+        padding-right: 1rem;
     }
 
     .card-five {
-        max-width: 60%;
-        margin-top: -37rem;
-        margin-left: 68rem;
-        align-content: center;
+        position: relative;
+        width: 16rem;
+        margin-top: -38.5rem;
+        left: 54rem;
     }
 
     .h3-card-five {
-        max-width: 100%;
+        font-size: 1.2rem;
     }
 
     .p-card-five {
         max-width: 100%;
+        padding-right: 1rem;
     }
 }
